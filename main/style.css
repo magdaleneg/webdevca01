@@ -22,11 +22,11 @@
     color: white;
   }
 
- /* style for caption is apply to all table */ 
-caption {
+ /* style for caption is apply */ 
+#employee caption {
     display: table-caption;
     text-align: center;
-    background-color: yellow;
+    background-color: rgb(255, 255, 95);
     padding-top: 12px;
     padding-bottom: 12px;
   }
@@ -53,8 +53,16 @@ caption {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4608f1;
+    background-color: #b0a4d1;
     color: white;
+  }
+ /* style for caption is apply */ 
+ #department caption {
+    display: table-caption;
+    text-align: center;
+    background-color: rgb(87, 58, 255);
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
   
  /* style for the jobtitle table */
@@ -77,10 +85,17 @@ caption {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #04AA6D;
+    background-color: #53ddab;
     color: white;
   }
-  
+ /* style for caption is apply */ 
+ #jobtitle caption {
+    display: table-caption;
+    text-align: center;
+    background-color: rgb(38, 238, 88);
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
    /* style for the salary table */
  #salary {
     font-family: Arial, Helvetica, sans-serif;
@@ -101,10 +116,18 @@ caption {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #04AA6D;
+    background-color: #c93cec;
     color: white;
   }
-  
+/* style for caption is apply */ 
+#salary caption {
+    display: table-caption;
+    text-align: center;
+    background-color: rgb(139, 15, 221);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+  }
   /* style for the Department Manager table */
 #departmentm {
     font-family: Arial, Helvetica, sans-serif;
@@ -125,6 +148,14 @@ caption {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4608f1;
+    background-color: #1894fa;
     color: white;
   } 
+   /* style for caption is apply */ 
+#employee caption {
+    display: table-caption;
+    text-align: center;
+    background-color: rgb(16, 82, 180);
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
