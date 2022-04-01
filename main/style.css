@@ -53,11 +53,35 @@ caption {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #2a0592;
+    background-color: #4608f1;
     color: white;
   }
   
- /* style for the salary table */
+ /* style for the jobtitle table */
+ #jobtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+#jobtitle  td, #jobtitle  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+#jobtitle tr:nth-child(even){background-color: #f2f2f2;}
+  
+#jobtitle tr:hover {background-color: #ddd;}
+  
+#jobtitle th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+   /* style for the salary table */
  #salary {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -81,27 +105,26 @@ caption {
     color: white;
   }
   
-  /* style for the salary table */
- #salary {
+  /* style for the Department Manager table */
+#departmentm {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
   
-#salary  td, #salary  th {
+#departmentm  td, #departmentm th {
     border: 1px solid #ddd;
     padding: 8px;
   }
   
-#salary tr:nth-child(even){background-color: #f2f2f2;}
+#departmentm tr:nth-child(even){background-color: #f2f2f2;}
   
-#salary tr:hover {background-color: #ddd;}
+#departmentm tr:hover {background-color: #ddd;}
   
-#salary th {
+#departmentm th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #04AA6D;
+    background-color: #4608f1;
     color: white;
-  }
-  
+  } 
