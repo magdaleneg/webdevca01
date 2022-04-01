@@ -21,7 +21,7 @@
     background-color: #04AA6D;
     color: white;
   }
-  
+ /* style for caption is apply to all table */ 
 caption {
     display: table-caption;
     text-align: center;
